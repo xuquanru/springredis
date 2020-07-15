@@ -10,7 +10,7 @@ public class SpringredisApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext ctx = SpringApplication.run(SpringredisApplication.class, args);
         TestRedis redis = ctx.getBean(TestRedis.class);
-        redis.testRedis5();
+        redis.testRedis2();
     }
 
 }

@@ -49,8 +49,8 @@ public class TestRedis {
 
     public  void testRedis2(){
         RedisConnection connection = redisTemplate.getConnectionFactory().getConnection();
-        connection.set("boy".getBytes(), "xuqr".getBytes());
-        System.err.println(new String(connection.get("boy".getBytes())));
+        connection.set("girl".getBytes(), "ly".getBytes());
+        System.err.println(new String(connection.get("girl".getBytes())));
     }
 
     public  void testRedis3(){
